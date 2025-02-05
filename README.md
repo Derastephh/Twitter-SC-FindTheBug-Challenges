@@ -1,5 +1,10 @@
 ## A repo listing out attempted twitter bug challenges
 
+
+Check out the first Find the Bug Challenge posted by @Securrtech on twitter.
+
+1. [YieldFarming contract](https://github.com/Derastephh/Twitter-SC-FindTheBug-Challenges/blob/main/src/YieldFarming.sol) and its [test file](https://github.com/Derastephh/Twitter-SC-FindTheBug-Challenges/blob/main/test/YieldFarmingTest.t.sol) which is written in foundry.
+
 ## Usage
 
 ### Build
