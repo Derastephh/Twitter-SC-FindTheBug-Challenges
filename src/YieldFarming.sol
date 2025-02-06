@@ -69,10 +69,6 @@ contract AttackYield {
         require(msg.value > 0, "must deposit eth");
 
         yieldFarming.stake{value: msg.value}();
-
-        // for (uint256 i = 0; i < 10; i++) {
-        //     block.coinbase.transfer(1);
-        // }
     }
 
     function attackAgain() public {
