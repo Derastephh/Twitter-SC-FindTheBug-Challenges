@@ -3,6 +3,9 @@ pragma solidity ^0.8.0;
 
 import {Test, console} from "forge-std/Test.sol";
 
+/*A DeFi platform is designed to distribute rewards to users based on their proportion of the total stake in the system. The smart contract provided below is supposed to calculate and distribute the rewards. Is there an issue with the way the calculation is performed?
+*/
+
 contract RewardDistributor is Test {
     uint256 public totalStake;
     uint256 public totalReward;
